@@ -12,9 +12,6 @@ public class Maze {
     private final int[][] directions = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
 
     public Maze(int rows, int cols) {//Constructor
-        if (rows < 10 || cols < 10) {
-            throw new IllegalArgumentException("Maze dimensions must be at least 10x10");
-        }
         this.rows = rows;
         this.cols = cols;
         this.grid = new int[rows][cols];
