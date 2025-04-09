@@ -22,8 +22,8 @@ This Java program generates a random maze using a recursive backtracking algorit
   - This ensures a perfect maze (no loops, only one solution).
 
 - Start and Exit Points 
-  - The start (`S`) is fixed at `(0, 1)` (top-left area).
-  - The exit (`E`) is fixed at `(rows-1, cols-2)` (bottom-right area).
+  - The start (`S`) is fixed at `(1, 1)` (top-left area).
+  - The exit (`E`) is fixed at `(rows-2, cols-2)` (bottom-right area).
   - Ensures these points are always open.
 
 - Connectivity Check  
