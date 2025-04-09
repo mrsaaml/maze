@@ -1,0 +1,16 @@
+public void generateMaze() {
+        // Initialize grid with walls (1 = wall, 0 = path)
+        for (int[] row : grid) {
+            Arrays.fill(row, 1);
+        }
+
+        // Start carving from the starting position
+        carvePath(start.row, start.col);
+
+        // Ensure start and exit are open
+        grid[start.row][start.col] = 0;
+        grid[exit.row][exit.col] = 0;
+
+        // Ensure there's a path to exit
+        connectToExit();
+    }
