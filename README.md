@@ -48,11 +48,7 @@ This Java program generates a random maze using a recursive backtracking algorit
     - `E` → Exit
     - `.` → Solution path (if solved)
 
-2.4 Input Validation
-- Minimum Maze Size  
-  - The constructor enforces a minimum maze size of `10x10` to ensure complexity.
-
-2.5 Helper Classes & Methods
+2.4 Helper Classes & Methods
 - `Cell` Class  
   - Represents a cell with `(row, col)` coordinates.
   - Overrides `equals()` and `hashCode()` for proper comparison in collections.
@@ -60,17 +56,18 @@ This Java program generates a random maze using a recursive backtracking algorit
 - Direction Handling 
   - Uses predefined direction offsets (`{{-1, 0}, {0, 1}, {1, 0}, {0, -1}}`) for movement.
 
-## 3. Example Execution
-1. Maze Generation 
+3. Example Execution
+  
+3.1 Maze Generation 
    - A `15x15` maze is created.
    - Walls and paths are randomly generated.
    - Ensures start and exit are connected.
 
-2. Maze Solving  
+3.2 Maze Solving  
    - DFS finds a path from `S` to `E`.
    - The solution is printed with dots (`.`).
 
-3. Output  
+3.3 Output  
    - First, the unsolved maze is displayed.
    - Then, the solved maze is shown with the path.
 
