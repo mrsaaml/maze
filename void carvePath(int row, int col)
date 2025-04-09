@@ -1,0 +1,20 @@
+private void carvePath(int row, int col) {
+        grid[row][col] = 0; // Mark current cell as path
+
+        // Create shuffled list of directions(up, right, down, left) to ensure random exploration
+        List<Integer> dirs = Arrays.asList(0, 1, 2, 3);
+        Collections.shuffle(dirs);
+
+        for (int dir : dirs) {
+            // Calculate the new row and column by moving 2 steps in the selected direction
+            int newRow = row + directions[dir][0] * 2;
+            int newCol = col + directions[dir][1] * 2;
+
+            // Check if next cell is within bounds and still a wall
+            if (newRow > 0 && newRow < rows - 1 && newCol > 0 && newCol < cols - 1 && grid[newRow][newCol] == 1) {
+                // Carve through the wall between current and next cell
+                grid[row + directions[dir][0]][col + directions[dir][1]] = 0;
+                carvePath(newRow, newCol);
+            }
+        }
+    }
