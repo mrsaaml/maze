@@ -1,77 +1,74 @@
-C:\Users\user\.jdks\openjdk-23.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=49740:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\user\IdeaProjects\untitled5\out\production\untitled5 Maze
+C:\Users\user\.jdks\openjdk-23.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=56046:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\user\IdeaProjects\untitled5\out\production\untitled5 Maze
 Generated Maze:
-# S # # # # # # # # # # # # # 
-#   # # # # # # # # # # # # # 
-#       #       #           # 
-# # #   #   #   # # #   # # # 
-#   #       #       #       # 
-#   # # # # # # #   # # #   # 
-#               #       #   # 
-#   #   # # #   # # #   #   # 
-#   #       #   #       #   # 
-#   # # #   #   #   # # #   # 
-#   #   #   #   #   #       # 
-#   #   #   # # #   # # #   # 
-#       #                   # 
-# # # # # # # # # # # # #   # 
-# # # # # # # # # # # # # E # 
+# # # # # # # # # # # # # # # 
+# S     #                   # 
+# # #   #   # # # # # # #   # 
+#   #   #               #   # 
+#   #   # # # # # # # # #   # 
+#   #                       # 
+#   # # # # # # # # # # #   # 
+#               #           # 
+#   #   # # # # #   # # # # # 
+#   #   #           #       # 
+#   #   #   # # # # # # #   # 
+#   #   #               #   # 
+#   # # # # # # # # #   #   # 
+#                         E # 
+# # # # # # # # # # # # # # # 
 
 Solved Maze:
-# S # # # # # # # # # # # # # 
-# . # # # # # # # # # # # # # 
-# . . . # . . . #           # 
-# # # . # . # . # # #   # # # 
-#   # . . . # . . . #       # 
-#   # # # # # # # . # # #   # 
-#               # . . . #   # 
-#   #   # # #   # # # . #   # 
-#   #       #   # . . . #   # 
-#   # # #   #   # . # # #   # 
-#   #   #   #   # . #       # 
-#   #   #   # # # . # # #   # 
-#       #         . . . . . # 
-# # # # # # # # # # # # # . # 
-# # # # # # # # # # # # # E # 
+# # # # # # # # # # # # # # # 
+# S . . #                   # 
+# # # . #   # # # # # # #   # 
+#   # . #               #   # 
+#   # . # # # # # # # # #   # 
+#   # . . . . . . . . . . . # 
+#   # # # # # # # # # # # . # 
+#               # . . . . . # 
+#   #   # # # # # . # # # # # 
+#   #   # . . . . . #       # 
+#   #   # . # # # # # # #   # 
+#   #   # . . . . . . . #   # 
+#   # # # # # # # # # . #   # 
+#                     . . E # 
+# # # # # # # # # # # # # # # 
 
 Process finished with exit code 0
 
-C:\Users\user\.jdks\openjdk-23.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=55524:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\user\IdeaProjects\untitled5\out\production\untitled5 Maze
+
+C:\Users\user\.jdks\openjdk-23.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=56080:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\user\IdeaProjects\untitled5\out\production\untitled5 Maze
 Generated Maze:
-# S # # # # # # # # # # # # # 
-#   # # # # # # # # # # # # # 
-#           #               # 
-# # # # #   # # #   # # #   # 
-#   #       #       #   #   # 
-#   #   # # #   # # #   #   # 
-#       #       #           # 
-#   # # #   # # # # # # #   # 
-#       #               #   # 
-# # #   # # # # # # #   #   # 
+# # # # # # # # # # # # # # # 
+# S     #           #       # 
+# # #   # # # # #   #   #   # 
 #   #           #       #   # 
-#   # # # # #   #   # # #   # 
-#                   #       # 
-# # # # # # # # # # # # #   # 
-# # # # # # # # # # # # # E # 
+#   # # # # #   # # # # #   # 
+#       #       #           # 
+#   #   #   # # #   # # # # # 
+#   #   #       #           # 
+#   # # # # #   # # # # #   # 
+#           #           #   # 
+#   #   # # # # # # #   #   # 
+#   #               #   #   # 
+#   # # # # #   # # #   #   # 
+#           #             E # 
+# # # # # # # # # # # # # # # 
 
 Solved Maze:
-# S # # # # # # # # # # # # # 
-# . # # # # # # # # # # # # # 
-# . . . . . #     . . . . . # 
-# # # # # . # # # . # # # . # 
-#   # . . . # . . . #   # . # 
-#   # . # # # . # # #   # . # 
-# . . . # . . . #         . # 
-# . # # # . # # # # # # # . # 
-# . . . # . . . . . . . # . # 
-# # # . # # # # # # # . # . # 
-#   # . . . . . # . . . # . # 
-#   # # # # # . # . # # # . # 
-#             . . . #     . # 
-# # # # # # # # # # # # # . # 
-# # # # # # # # # # # # # E # 
+# # # # # # # # # # # # # # # 
+# S . . #           #       # 
+# # # . # # # # #   #   #   # 
+#   # . . . . . #       #   # 
+#   # # # # # . # # # # #   # 
+#       # . . . #           # 
+#   #   # . # # #   # # # # # 
+#   #   # . . . #           # 
+#   # # # # # . # # # # #   # 
+#           # . . . . . #   # 
+#   #   # # # # # # # . #   # 
+#   #               # . #   # 
+#   # # # # #   # # # . #   # 
+#           #         . . E # 
+# # # # # # # # # # # # # # # 
 
 Process finished with exit code 0
-
-
-
-
