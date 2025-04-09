@@ -1,0 +1,11 @@
+public boolean solveMaze() {
+      // Reset visited and path to ensure no previous search information interferes with the current one      
+      for (boolean[] row : visited) {
+          Arrays.fill(row, false);
+      }
+      path.clear();
+
+
+      //Recursive function that attempts to find a path from the start to the exit of the maze.
+      return solve(start.row, start.col);
+  }
