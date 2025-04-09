@@ -14,7 +14,7 @@ private void carvePath(int row, int col) {
             if (newRow > 0 && newRow < rows - 1 && newCol > 0 && newCol < cols - 1 && grid[newRow][newCol] == 1) {
                 // Carve through the wall between current and next cell
                 grid[row + directions[dir][0]][col + directions[dir][1]] = 0;
-                carvePath(newRow, newCol);
+                carvePath(newRow, newCol);// Recursively call to carve the next path
             }
         }
     }
