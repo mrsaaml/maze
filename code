@@ -69,7 +69,7 @@ public class Maze {
     }
 
     private void connectToExit() {
-        // Simple BFS to ensure exit is reachable
+        // Simple DFS to ensure exit is reachable
         boolean[][] visited = new boolean[rows][cols];
         Stack<Cell> stack = new Stack<>();
         stack.push(start);
