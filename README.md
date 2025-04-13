@@ -27,7 +27,7 @@ This Java program generates a random maze using a recursive backtracking algorit
   - Ensures these points are always open.
 
 - Connectivity Check  
-  - After generation, a BFS (Breadth-First Search) checks if the exit is reachable.
+  - After generation, a DFS (Depth-First Search) checks if the exit is reachable.
   - If not, it manually connects the exit to the nearest path.
 
 2.2 Maze Solving
