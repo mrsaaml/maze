@@ -1,5 +1,5 @@
 private void connectToExit() {
-    // Simple BFS to ensure exit is reachable
+    // Simple DFS to ensure exit is reachable
     boolean[][] visited = new boolean[rows][cols];  // Array to keep track of visited cells
     Stack<Cell> stack = new Stack<>();  // Stack for DFS search
     stack.push(start);  // Start the search from the start cell
