@@ -1,4 +1,4 @@
-//check branches for the commits
+
 
  Maze Generator and Solver 
 
